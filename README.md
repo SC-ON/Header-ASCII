@@ -130,28 +130,28 @@ now,the version is 1.2.5.
     cout<<ascii.toHex();//61
 
 
-### For Outhers
+### For Other
 
 	int changeToNum(char character);
   	char changeToCharacter(int number);
 
    and here we go:
 
-    	int changeToNum(char character)
+    int changeToNum(char character)
 
-     its a function to return the ASCII number of character,
-     like:
+its a function to return the ASCII number of character,
+like:
 
-     	cout<<changeToNum('!');//33
+     cout<<changeToNum('!');//33
 
-    next:
+next:
 
-    	char changeToCharacter(int number)
+    char changeToCharacter(int number)
    	
-    its a function to return the ASCII character of number,
-    like:
+its a function to return the ASCII character of number,
+like:
 
-    	cout<<changeToCharacter(33);//!
+    cout<<changeToCharacter(33);//!
 
 
      
