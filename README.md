@@ -48,7 +48,7 @@ now,the version is 1.2.5.
     }
 
 
-  ## For class ASCII
+  ### For class ASCII
   and you needs to know all of the functions in class ASCII
   
     ASCII setInt(int num);
@@ -130,4 +130,28 @@ now,the version is 1.2.5.
     cout<<ascii.toHex();//61
 
 
-## For Outhers
+### For Outhers
+
+	int changeToNum(char character);
+  	char changeToCharacter(int number);
+
+   and here we go:
+
+    	int changeToNum(char character)
+
+     its a function to return the ASCII number of character,
+     like:
+
+     	cout<<changeToNum('!');//33
+
+    next:
+
+    	char changeToCharacter(int number)
+   	
+    its a function to return the ASCII character of number,
+    like:
+
+    	cout<<changeToCharacter(33);//!
+
+
+     
