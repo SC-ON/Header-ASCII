@@ -15,7 +15,11 @@ now,the version is 1.2.5.
   
   if you seen
   
-    letter:a number:97 bin:1100001 oct:141 hex:61
+    character:a number:97 bin:01100001 oct:141 hex:61
+    character:  number:32 bin:00100000 oct:40 hex:20
+    ! to Num: 33. 33 to character: !
+
+
     
   on your window,then its all right
 
@@ -27,7 +31,11 @@ now,the version is 1.2.5.
 
   if you seen
   
-    letter:a number:97 bin:1100001 oct:141 hex:61
+    character:a number:97 bin:01100001 oct:141 hex:61
+    character:  number:32 bin:00100000 oct:40 hex:20
+    ! to Num: 33. 33 to character: !
+
+
     
   on your window,then its all right
 
