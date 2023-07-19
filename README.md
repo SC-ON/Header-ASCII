@@ -1,5 +1,11 @@
 # Header-ASCII
-A "simple" library of ASCII codes  cpp
+A "simple" library of ASCII codes in cpp
+
+anything wrong,send an E-mail to SC-ON@hotmail.com
+
+
+now,the version is 1.2.5.
+
 
   # How To Use
 
@@ -24,3 +30,104 @@ A "simple" library of ASCII codes  cpp
     letter:a number:97 bin:1100001 oct:141 hex:61
     
   on your window,then its all right
+
+
+  ## API
+
+  To use my header ASCII,you need to do the same work above to your IDE,Code Editor(anything wrong,send an E-mail to SC-ON@hotmail.com),and write
+
+    #include<iostream>
+    #include<ASCII>// or #include<ASCII.h>
+    //and outher headers...
+    
+    using namespace std;
+    
+    int main(){
+        ASCII ascii;
+        //code here
+    }
+
+
+  ## For class ASCII
+  and you needs to know all of the functions in class ASCII
+  
+    ASCII setInt(int num);
+	ASCII setChar(char character);
+	int toInt();
+	char toChar();
+	std::string toBin();
+	std::string toOct();
+	std::string toHex();
+
+
+  and here we go:
+  
+    ASCII setInt(int num)
+
+  its a function to set your ASCII variable to set its value with num,return "*this",
+  like:
+
+    ascii.setInt(97);
+
+  next:
+
+    ASCII setChar(char character)
+
+  its a function to set your ASCII variable to set its value with character,return "*this",
+  like:
+  
+    ascii.setChar('a');
+
+
+  next:
+
+    int toInt()
+
+  its a function to return your ASCII's number,
+  like:
+
+    ascii.setInt(97);
+    cout<<ascii.toInt();//97
+
+  next:
+
+    char toChar()
+
+  its a function to return your ASCII's character,
+  like:
+
+    ascii.setChar('a');
+    cout<<ascii.toChar();//a
+
+  next:
+
+    std::string toBin()
+
+  its a function to return your ASCII's number in binary(8 bit)，
+  like:
+
+    ascii.setInt(97);
+    cout<<ascii.toBin();//01100001
+
+  next:
+
+    std::string toOct()
+
+  its a function to return your ASCII's number in octal，
+  like:
+
+    ascii.setInt(97);
+    cout<<ascii.toOct();//141
+
+  next:
+
+    std::string toHex()
+
+  its a function to return your ASCII's number in hexadecimal，
+  like:
+
+    ascii.setInt(97);
+    cout<<ascii.toHex();//61
+
+
+## For Outhers
